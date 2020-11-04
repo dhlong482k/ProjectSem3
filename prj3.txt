@@ -1,0 +1,20 @@
+Client
+	-Phải tạo user để sử dụng
+	-User gửi feedback
+	-Thể loại thiệp
+	-Giao diện user
+		+Premium
+	-Ô search: thể loại, hastag
+Admin
+	-Cập nhật db
+	-Tạo card template
+	-Kiểm tra report vs feedback
+	-Tắt tài khoản người dùng
+Db
+	-Thể loại(Thể loại e-card) tên tl
+	-e-Card template(mẫu card) thể loại, content
+	-User(tài khoản) usrname, pwd,..., thời gian premium, 
+	-Feedback(lưu feedback của user, trạng thái or reply) usrID, content, time
+	-User card(lưu e-card của người dùng) usrID, content
+	-Admin usrName,
+	-Hóa đơn
